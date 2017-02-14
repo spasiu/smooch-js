@@ -315,15 +315,7 @@ export class ConversationComponent extends Component {
                             className='sk-messages'>
                            { messageItems }
                        </div>
-                       <div className='sk-logo'
-                            ref='logo'
-                            style={ logoStyle }>
-                           <a href='https://smooch.io/live-web-chat/?utm_source=widget'
-                              target='_blank'><span>Messaging by</span> <img className='sk-image'
-                                                                                                                                       src={ logo }
-                                                                                                                                       srcSet={ `${logo} 1x, ${logo2x} 2x` }
-                                                                                                                                       alt='smooch.io' /></a>
-                       </div>
+                       <div className='sk-logo' ref='logo'></div>
                    </div>
                </div>;
     }
